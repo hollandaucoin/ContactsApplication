@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowPersonal">
+
+    <EditText
+        android:id="@+id/et_photoSP"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="@string/PhotoSelection"
+        android:inputType="date"
+        android:text="1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_birthdaySP"
+        app:layout_constraintTop_toBottomOf="@+id/et_birthdaySP" />
+
+    <TextView
+        android:id="@+id/tv_photoSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Photo"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_birthdaySP" />
+
+    <TextView
+        android:id="@+id/tv_showContactP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/ShowPersonal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_editContactSP"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_contactPictureSP" />
+
+    <Button
+        android:id="@+id/btn_deleteContactSP"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_contactPictureSP" />
+
+    <TextView
+        android:id="@+id/tv_phoneNumberSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/PhoneNumber"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_editContactSP" />
+
+    <TextView
+        android:id="@+id/tv_emailSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Email"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phoneNumberSP" />
+
+    <TextView
+        android:id="@+id/tv_addressSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Address"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_emailSP" />
+
+    <TextView
+        android:id="@+id/tv_descriptionSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Pdescription"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_showContactP" />
+
+    <EditText
+        android:id="@+id/et_phoneNumberSP"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="123-456-7890"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_callSP"
+        app:layout_constraintStart_toEndOf="@+id/tv_phoneNumberSP"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deleteContactSP" />
+
+    <ImageButton
+        android:id="@+id/ib_callSP"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/holo_green_dark"
+        android:src="@android:drawable/stat_sys_phone_call"
+        app:layout_constraintEnd_toStartOf="@+id/ib_textSP"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deleteContactSP" />
+
+    <ImageButton
+        android:id="@+id/ib_emailSP"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/holo_blue_bright"
+        android:src="@android:drawable/ic_dialog_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_textSP" />
+
+    <ImageButton
+        android:id="@+id/ib_textSP"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@android:drawable/sym_action_chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deleteContactSP" />
+
+    <EditText
+        android:id="@+id/et_emailAddressSP"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="johnny.appleseed@gmail.com"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_emailSP"
+        app:layout_constraintStart_toEndOf="@+id/tv_emailSP"
+        app:layout_constraintTop_toBottomOf="@+id/et_phoneNumberSP" />
+
+    <EditText
+        android:id="@+id/et_address1SP"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="123 Main St. Phoenix, AZ"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_addressSP"
+        app:layout_constraintTop_toBottomOf="@+id/et_emailAddressSP" />
+
+    <EditText
+        android:id="@+id/et_address2SP"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="85017 United States"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_navigateSP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_address1SP" />
+
+    <ImageButton
+        android:id="@+id/ib_navigateSP"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/holo_orange_light"
+        android:src="@android:drawable/ic_dialog_map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_address1SP" />
+
+    <TextView
+        android:id="@+id/tv_birthdaySP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/Birthday"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addressSP" />
+
+    <EditText
+        android:id="@+id/et_birthdaySP"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="01/01/2000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_birthdaySP"
+        app:layout_constraintTop_toBottomOf="@+id/et_address2SP" />
+
+    <ImageButton
+        android:id="@+id/ib_exitSP"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@android:drawable/ic_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_contactPictureSP"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_descriptionSP"
+        app:srcCompat="@drawable/icon1" />
+
+</android.support.constraint.ConstraintLayout>

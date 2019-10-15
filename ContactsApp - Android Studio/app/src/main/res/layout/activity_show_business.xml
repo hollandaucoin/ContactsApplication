@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowBusiness">
+
+    <EditText
+        android:id="@+id/et_photoSB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="@string/PhotoSelection"
+        android:inputType="date"
+        android:text="1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_photoSB"
+        app:layout_constraintTop_toBottomOf="@+id/et_websiteSB" />
+
+    <TextView
+        android:id="@+id/tv_photoSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Photo"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_websiteSB" />
+
+    <ImageButton
+        android:id="@+id/ib_exitSB"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/tv_showContactB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/ShowBusiness"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_companySB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Bcompany"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_showContactB" />
+
+    <Button
+        android:id="@+id/btn_editContactSB"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_contactPictureSB" />
+
+    <Button
+        android:id="@+id/btn_deleteContactSB"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_contactPictureSB" />
+
+    <TextView
+        android:id="@+id/tv_phoneNumberSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/PhoneNumber"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_editContactSB" />
+
+    <TextView
+        android:id="@+id/tv_emailSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Email"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phoneNumberSB" />
+
+    <TextView
+        android:id="@+id/tv_addressSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Address"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_emailSB" />
+
+    <TextView
+        android:id="@+id/tv_businessHoursSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/BusinessHours"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addressSB" />
+
+    <TextView
+        android:id="@+id/tv_scheduleSb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Schedule"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_businessHoursSB" />
+
+    <TextView
+        android:id="@+id/tv_websiteSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/WebsiteURL"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_scheduleSb" />
+
+    <EditText
+        android:id="@+id/et_phoneNumberSB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="098-765-4321"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_callSB"
+        app:layout_constraintStart_toEndOf="@+id/tv_phoneNumberSB"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deleteContactSB" />
+
+    <ImageButton
+        android:id="@+id/ib_callSB"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/holo_green_dark"
+        app:layout_constraintEnd_toStartOf="@+id/ib_textSB"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deleteContactSB"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <ImageButton
+        android:id="@+id/ib_textSB"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deleteContactSB"
+        app:srcCompat="@android:drawable/sym_action_chat" />
+
+    <EditText
+        android:id="@+id/et_emailAddressSB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="apple@icloud.com"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_emailSB"
+        app:layout_constraintStart_toEndOf="@+id/tv_emailSB"
+        app:layout_constraintTop_toBottomOf="@+id/et_phoneNumberSB" />
+
+    <ImageButton
+        android:id="@+id/ib_emailSB"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/holo_blue_bright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_textSB"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <EditText
+        android:id="@+id/et_address1SB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1 Infinite Loop Cupertino, CA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_addressSB"
+        app:layout_constraintTop_toBottomOf="@+id/et_emailAddressSB" />
+
+    <EditText
+        android:id="@+id/et_address2SB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="95014 United States"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_navigateSB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_address1SB" />
+
+    <ImageButton
+        android:id="@+id/ib_navigateSB"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/holo_orange_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_address1SB"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <EditText
+        android:id="@+id/et_businessHoursSB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="number|text"
+        android:text="8:00AM - 10:00PM"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_businessHoursSB"
+        app:layout_constraintTop_toBottomOf="@+id/et_address2SB" />
+
+    <EditText
+        android:id="@+id/et_scheduleSB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SMTWThFS"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_scheduleSb"
+        app:layout_constraintTop_toBottomOf="@+id/et_businessHoursSB" />
+
+    <EditText
+        android:id="@+id/et_websiteSB"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="www.apple.com"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_websiteSB"
+        app:layout_constraintStart_toEndOf="@+id/tv_websiteSB"
+        app:layout_constraintTop_toBottomOf="@+id/et_scheduleSB" />
+
+    <ImageView
+        android:id="@+id/iv_contactPictureSB"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_companySB"
+        app:srcCompat="@drawable/icon16" />
+
+    <ImageButton
+        android:id="@+id/ib_websiteSB"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/holo_blue_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_scheduleSB"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+</android.support.constraint.ConstraintLayout>
