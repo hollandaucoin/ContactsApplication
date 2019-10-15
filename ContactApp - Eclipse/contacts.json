@@ -1,0 +1,79 @@
+{
+  "list" : {
+    "theList" : [ {
+      "type" : "Person",
+      "firstName" : "Jody",
+      "lastName" : "Aucoin",
+      "phoneNumber" : "206-240-5216",
+      "emailAddress" : "yodaaucoin@comcast.com",
+      "photo" : "jodyaucoin.jpg",
+      "streetAddress" : "22502 151st ST SE",
+      "city" : "Monroe",
+      "state" : "WA",
+      "zipCode" : "98272",
+      "country" : "United States",
+      "birthday" : "07-09-1962",
+      "description" : "My mom"
+    }, {
+      "type" : "Person",
+      "firstName" : "Josie",
+      "lastName" : "Zinniker",
+      "phoneNumber" : "760-521-4458",
+      "emailAddress" : "jzinniker99@yahoo.com",
+      "photo" : "jos.jpg",
+      "streetAddress" : "123 Avocado Rd.",
+      "city" : "Escondido",
+      "state" : "CA",
+      "zipCode" : "92028",
+      "country" : "United States",
+      "birthday" : "11/20/1999",
+      "description" : "Friend"
+    }, {
+      "type" : "Business",
+      "firstName" : "Phil",
+      "lastName" : "Knight",
+      "phoneNumber" : "360-805-0709",
+      "emailAddress" : "nike@gmail.com",
+      "photo" : "swoosh.jpg",
+      "streetAddress" : "1 Bowerman Drive",
+      "city" : "Beaverton",
+      "state" : "OR",
+      "zipCode" : "97005",
+      "country" : "United States",
+      "company" : "Nike",
+      "businessHours" : "7:30AM-10:00PM",
+      "websiteURL" : "http://www.nike.com",
+      "daysOfWeekOpen" : [ false, true, true, true, true, true, false ]
+    }, {
+      "type" : "Business",
+      "firstName" : "Steve",
+      "lastName" : "Jobs",
+      "phoneNumber" : "206-698-2700",
+      "emailAddress" : "apple@icloud.com",
+      "photo" : "apple.jpg",
+      "streetAddress" : "1 Apple Park Way",
+      "city" : "Cupertino",
+      "state" : "CA",
+      "zipCode" : "95014",
+      "country" : "United States",
+      "company" : "Apple",
+      "businessHours" : "8:00AM-10:00PM",
+      "websiteURL" : "http://www.apple.com",
+      "daysOfWeekOpen" : [ true, true, true, true, true, true, true ]
+    }, {
+      "type" : "Person",
+      "firstName" : "Abbie",
+      "lastName" : "Dayley",
+      "phoneNumber" : "425-591-2882",
+      "emailAddress" : "abbiedayley@gmail.com",
+      "photo" : "abbiieeeee.jpg",
+      "streetAddress" : "16897 226th Ave",
+      "city" : "Monroe",
+      "state" : "WA",
+      "zipCode" : "98272",
+      "country" : "United States",
+      "birthday" : "12-07-2000",
+      "description" : "Friend"
+    } ]
+  }
+}
