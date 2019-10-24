@@ -5,11 +5,6 @@ import model.BaseContact;
 import model.BusinessContact;
 import model.PersonContact;
 
-//Holland Aucoin
-//January 28, 2019
-//CST 135 - 825MWF
-//Milestone 4 - Testing
-
 public class testingOnly {
 
 	public static void main(String[] args) {
@@ -20,13 +15,12 @@ public class testingOnly {
 		BusinessService bs = new BusinessService();
 
 		// INTRO TO APP
+		System.out.println("");
 		System.out.println("Welcome to the Contacts App");
 		System.out.println("");
 
-		// CREATES DEFAULT CONTACTS IN ADDRESS BOOK
-		
+		// LOAD CONTACTS IN ADDRESS BOOK
 	    bs.loadContacts();
- 	   //defaultContacts(bs);
 
 		// CREATE BOOLEAN, SET TO TRUE, AND CREATE WHILE LOOP TO REMAIN IN APP
 		Boolean inApp = true;
@@ -126,19 +120,6 @@ public class testingOnly {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//	// METHOD TO CREATE DEFAULT CONTACTS
-	private static void defaultContacts(BusinessService bs) {
-		PersonContact p2 = new PersonContact("Jody", "Aucoin", "My mom", "206-240-5216", "yodaaucoin@comcast.com", "jodyaucoin.jpg", "22502 151st ST SE", "Monroe", "WA", "98272", "United States", "07-09-1962");
-		bs.list.addOne(p2);
-		PersonContact p3 = new PersonContact("Abbie", "Dayley", "Friend", "425-591-2882", "abbiedayley@gmail.com", "abbiieeeee.jpg", "16897 252nd ST SE", "Monroe", "WA", "98272", "United States", "12-07-2000");
-		bs.list.addOne(p3);
-		BusinessContact b2 = new BusinessContact("Apple", "Steve", "Jobs", "206-698-2700", "apple@icloud.com", "apple.jpg", "1 Apple Park Way", "Cupertino", "CA", "95014", "United States", "8:00AM-10:00PM",
-				new Boolean[] { true, true, true, true, true, true, true }, "http://www.apple.com");
-		bs.list.addOne(b2);
-		BusinessContact b3 = new BusinessContact("Nike", "Phil", "Knight", "360-805-0709", "nike@gmail.com", "swoosh.jpg", "1 Bowerman Drive", "Beaverton", "OR", "97005", "United States", "7:30AM-10:00PM",
-				new Boolean[] { false, true, true, true, true, true, false}, "http://www.nike.com");
-		bs.list.addOne(b3);
-	}
 
 	// METHOD TO SHOW MENU OPTIONS
 	private static void showMenu() {

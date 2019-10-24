@@ -1,8 +1,3 @@
-//Holland Aucoin
-//January 28, 2019
-//CST 135 - 825MWF
-//Milestone 2 - FileIOService
-
 package dataAccess;
 
 import java.io.File;

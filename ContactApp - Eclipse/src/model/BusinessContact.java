@@ -1,11 +1,4 @@
-//Holland Aucoin
-//January 28, 2019
-//CST 135 - 825MWF
-//Milestone 3 - BusinessContact
-
 package model;
-
-import java.util.Arrays;
 
 public class BusinessContact extends BaseContact{
 

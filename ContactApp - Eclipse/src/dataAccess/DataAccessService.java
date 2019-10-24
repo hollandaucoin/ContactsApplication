@@ -1,8 +1,3 @@
-//Holland Aucoin
-//February 25, 2019
-//CST 135 - 825MWF
-//Milestone 4 - DataAccessService
-
 package dataAccess;
 
 import businessServices.BusinessService;
