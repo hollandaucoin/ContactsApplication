@@ -1,4 +1,4 @@
-# Contacts Application
+# Contacts Application - Spring 2019
 
 Using Android Studio, this application replicates a standard contacts app where a user is able to add, edit, and delete personal and business contacts, as well as search and sort those contacts.
 
