@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="Contactspng/Logo.png" alt="Logo"/>
+</p>
+
 # Contacts Application - Spring 2019
 
 Using Android Studio, this application replicates a standard contacts app where a user is able to add, edit, and delete personal and business contacts, as well as search and sort those contacts.
